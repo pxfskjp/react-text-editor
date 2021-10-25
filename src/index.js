@@ -22,7 +22,7 @@ class App extends React.Component{
        <RichTextEditor
           value={this.state.value}
           onChange={this.onChange}
-          editorClassName="initial-height"
+          editorStyle={{ height: '50vh' }}
         />
 
       </section>
